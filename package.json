@@ -1,0 +1,34 @@
+{
+  "name": "abyss",
+  "version": "0.1.1",
+  "description": "",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sideralium/abyss.git"
+  },
+  "keywords": [],
+  "author": "shooteram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sideralium/abyss/issues"
+  },
+  "homepage": "https://github.com/sideralium/abyss#readme",
+  "dependencies": {
+    "stun": "^2.1.0",
+    "typescript": "^4.2.3",
+    "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.4.1"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.3",
+    "utf-8-validate": "^5.0.4"
+  }
+}
